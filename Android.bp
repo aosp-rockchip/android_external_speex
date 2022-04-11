@@ -127,6 +127,7 @@ cc_library_static {
         "-Werror",
         "-Wno-sign-compare",
         "-Wno-unused-parameter",
+        "-Wno-unused-variable",
     ],
 
     local_include_dirs: ["include"],
